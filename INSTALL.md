@@ -35,11 +35,11 @@ dependencies:
 It is also needed to have packages:
 
   - openvswitch-2.3.1 - LTS package (http://openvswitch.org/releases/openvswitch-2.3.1.tar.gz)
-  - pyang-1.4.1 (https://pyang.googlecode.com/files/pyang-1.4.1.tar.gz)
+  - pyang-1.4.1 (https://github.com/mbj4668/pyang/archive/pyang-1.4.1.tar.gz)
 
 Optionally, it is useful to install NETCONF client:
 
-  - Netopeer-cli (contained in https://code.google.com/p/netopeer/)
+  - Netopeer-cli (contained in https://github.com/CESNET/netopeer/)
 
 or
 
@@ -113,7 +113,7 @@ libnetconf
 
 libnetconf can be installed simply by:
 
-    [~]$ git clone https://code.google.com/p/libnetconf
+    [~]$ git clone https://github.com/cesnet/libnetconf
 
     [~]$ cd libnetconf
 
