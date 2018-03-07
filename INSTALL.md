@@ -100,7 +100,7 @@ OF-CONFIG Installation
 pyang
 -----
 
-    [~]$ tar -xf pyang-1.4.1.tar.gz && cd pyang-1.4.1 && python setup.py install
+    [~]$ tar -xf pyang-1.4.1.tar.gz && cd pyang-pyang-1.4.1 && python setup.py install
 
 To convert configuration data model into different format, use:
 
