@@ -66,6 +66,15 @@ python setup.py install
 
 cd ..
 
+# install ovs 2.3
+echo "----Installing ovs 2.3----"
+wget https://github.com/openvswitch/ovs/archive/v2.3.tar.gz
+tar zxvf v2.3.tar.gz && cd ovs-2.3
+./configure --with-linux=/lib/modules/`uname -r`/build
+make && make install
+
+cd ..
+
 # install of-config
 echo "----Installing of-config----"
 git clone https://github.com/openvswitch/of-config
