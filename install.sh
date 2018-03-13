@@ -80,6 +80,7 @@ echo "----Installing of-config----"
 git clone https://github.com/openvswitch/of-config
 cd of-config
 ./configure --with-ovs-srcdir=/root/ovs/ovs-2.3 --disable-dbus
+make && make install
 
 cd ..
 
